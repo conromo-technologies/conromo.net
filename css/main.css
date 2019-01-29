@@ -4877,8 +4877,6 @@ CONTACT ADDRESS
     margin-bottom: 40px;
 }
 
-.do-contact-add-wrapper ul{}
-
 .do-contact-add-wrapper ul li{
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
@@ -4887,10 +4885,12 @@ CONTACT ADDRESS
 }
 
 .do-contact-add-wrapper ul li.do-phone{
-    margin: 25px 0 10px;
-    color: #8ec53f;
+    margin: 15px 0 10px; 
+    color: #009e4b;
 }
-
+body {
+    background-color: #009e4b;
+}
 .do-contact-add-wrapper .do-coantact-social{
     margin-top: 35px;
     overflow: hidden;
