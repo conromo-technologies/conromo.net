@@ -1332,9 +1332,6 @@ p,li,a,span,input{
     position: relative;
     z-index: 99;
     width: 100%;
-    -webkit-box-shadow: 0 0px 2px #cecece;
-       -moz-box-shadow: 0 0px 2px #cecece;
-            box-shadow: 0 0px 2px #cecece;
     -webkit-transition: all .550s;
        -moz-transition: all .550s;
         -ms-transition: all .550s;
@@ -1471,7 +1468,7 @@ DROPDOWN MENU
 }
 
 .do-main-menu .navbar-nav li:hover ul.sub-menu li.has-menu:hover:after{
-    color: #8ec53f;
+    color: #009e4b;
 }
 
 
@@ -1486,7 +1483,7 @@ DROPDOWN MENU
 }
 
 .do-main-menu .navbar-nav li ul.sub-menu li a:hover{
-    color: #8ec53f;
+    color: #009e4b;
 }
 
 /* SUB-MENU SUB STYLE */
@@ -1617,7 +1614,7 @@ SIDE MENU
     height: 100%;
     top: 0;
     left: 50%;
-    background: #8ec53f;
+    background: #009e4b;
 }
 
 .do-side-menu-close-button::before {
