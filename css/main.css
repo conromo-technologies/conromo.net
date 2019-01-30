@@ -339,10 +339,10 @@ DO SOLID BUTTON
 ******************/
 .do-btn-round-solid{
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #ffffff;
-    background-color: #8ec53f;
-    border: 2px solid #8ec53f;
+    background-color: #009e4b;
+    border: 2px solid #009e4b;
     padding: 0px 25px;
     padding-left: 30px;
     height: 40px;
@@ -350,12 +350,12 @@ DO SOLID BUTTON
     display: inline-block;
     *display: inline;
     *zoom: 1;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
     text-transform: uppercase;
-    -webkit-border-radius: 20px;
-       -moz-border-radius: 20px;
-         -o-border-radius: 20px;
-            border-radius: 20px;
+    -webkit-border-radius: 15px;
+       -moz-border-radius: 15px;
+         -o-border-radius: 15px;
+            border-radius: 15px;
     -webkit-transition: all .3s;
        -moz-transition: all .3s;
         -ms-transition: all .3s;
@@ -371,7 +371,7 @@ DO SOLID BUTTON
 
 .do-btn-round-solid:focus{
     color: #ffffff;
-    border: 2px solid #8ec53f;
+    border: 2px solid #009e4b;
     outline: 0;
 }
 
@@ -840,7 +840,7 @@ SKILLBAR
     content: '';
     width: 45px;
     height: 4px;
-    background-color: #8ec53f;
+    background-color: #009e4b;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1012,9 +1012,6 @@ BREADCUMB
     background-color: #373737;
     overflow: hidden;
 }
-
-.do-social-link-section ul{}
-
 .do-social-link-section a{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -1023,7 +1020,7 @@ BREADCUMB
     display: inline-block;
     *display: inline;
     *zoom: 1;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
     text-transform: uppercase;
     float: left;
     text-align: center;
@@ -1315,7 +1312,7 @@ p,li,a,span,input{
     min-height: 60px;
     border: 0px;
     padding: 5px 0;
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.97);
     position: relative;
     z-index: 99;
     width: 100%;
@@ -1387,6 +1384,9 @@ ul.do-menus li.active a{
 
 ul.do-menus li a:focus{
     background-color: transparent;
+}
+.navbar-brand, .navbar-nav > li > a {
+    text-shadow: none;
 }
 
 /*****************
@@ -1513,14 +1513,14 @@ DROPDOWN MENU
 
 /* Minified Menu */
 .do-main-menu.minified{
-    background-color: rgba(255,255,255,0.97);
+    background-color: rgba(0, 0, 0, 0.97);
     padding: 0;
     position: fixed;
 }
 
 /* TOPBAR Minified Menu */
 .hastopbar .do-main-menu.minified{
-    background-color: rgba(255,255,255,0.97);
+    background-color: rgba(0, 0, 0, 0.97);
     padding: 0;
     position: fixed;
     top: 0;
@@ -4888,17 +4888,13 @@ CONTACT ADDRESS
     margin: 15px 0 10px; 
     color: #009e4b;
 }
-body {
-    background-color: #009e4b;
-}
 .do-contact-add-wrapper .do-coantact-social{
     margin-top: 35px;
     overflow: hidden;
 }
-
 .do-contact-add-wrapper .do-coantact-social a{
-    font-size: 16px;
-    color: #d4d4d4;
+    font-size: 17px;
+    /* color: #d4d4d4; */
     display: inline-block;
     *display: inline;
     *zoom: 1;
@@ -4916,7 +4912,7 @@ body {
 }
 
 .do-contact-add-wrapper .do-coantact-social a:hover{
-    color: #8ec53f;
+    color: #009e4b;
 }
 
 /************************* End **************************/
