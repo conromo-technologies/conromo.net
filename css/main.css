@@ -711,21 +711,24 @@ SKILLBAR
 .do-skillbar:nth-child(4) .do-skillbar-bar{
     background-color: #474747;
 }
+
+
 /* *** *** *** *** *** *** *** ***
         About us page start
 *** *** *** *** *** *** *** *** *** */
 .main-mission {
     /* height: 480px;
     width: 780px; */
-    background-color: #000;  
-    margin: 5% 0; 
+    background-color: rgba(255, 255, 255, 0.99);  
+    margin: 2% 0; 
+    box-shadow: 5px 5px;
 }
 .mission-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 1.2em;
     text-align: justify;
-    /* margin: 25% 10%; */
+    margin: 25% 10%;
 }
 
 
@@ -735,7 +738,6 @@ SKILLBAR
 .do-parallax-page-title-section{
     padding: 175px 0;
     position: relative;
-    /* background: url(../images/banner.png) no-repeat center; */
     -webkit-background-size: cover;
             background-size: cover;
 }
@@ -752,20 +754,24 @@ SKILLBAR
     width: 45px;
     height: 4px;
     margin: 0 auto;
-    background-color: #8ec53f;
+    background-color: #009e4b;
     display: block;
     margin-top: 20px;
 }
 
 .do-parallax-page-title-section .do-page-title h1{
-    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
     color: #ffffff;
     margin-top: 0;
     margin-bottom: 10px;
 }
 
 .do-parallax-page-title-section .do-page-title p{
-    font-size: 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #c0c0c0;
     margin-bottom: 0;
 }
