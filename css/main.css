@@ -734,22 +734,26 @@ SKILLBAR
 }
 .do-circle {
     position: relative;
+    margin-top: 30px;
+    left: 10%;
     height: 210px;
     width: 210px;
     border-radius: 100%;
     background-color: #0077b5;
 }
-.do-circle:nth-child(2) {
-    position: relative;
-    /* float: right; */
-    /* margin: -35% -20% 0; */
+.do-circle:nth-child(2) { 
+    position: absolute;
+    top: 20%;
+    left: 62%;
     height: 180px;
     width: 180px;
     border-radius: 100%;
     background-color: #009e4b;
 }
 .do-circle:nth-child(3) {
-    position: relative;
+    position: absolute;
+    /* bottom: 78%; */
+    left: 40%;
     height: 150px;
     width: 150px;
     border-radius: 100%;
