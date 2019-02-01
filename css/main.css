@@ -716,23 +716,25 @@ SKILLBAR
 /* *** *** *** *** *** *** *** ***
         About us page start
 *** *** *** *** *** *** *** *** *** */
+.do-about-us-video{
+    width: 100%;
+    height: 100%;
+}
 .do-main-mission {
-    /* height: 480px;
-    width: 780px; */
     background-color: rgba(255, 255, 255, 0.99);  
-    margin: 3% 0; 
+    margin: 4% 0; 
     box-shadow: 0 2px 4px rgba(0,0,0,0.15), 0 2px 3px rgba(0,0,0,0.25);
 }
 .do-mission-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: #000;
     text-align: justify;
     margin: 25% 10%;
 }
 .do-mission-vision-wrapper {
-    margin: 3% 0;
+    margin: 4% 0;
 }
 .do-mission {
     position: relative;
@@ -766,17 +768,18 @@ SKILLBAR
                     PAGE TITLE (BG IMAGE)
 ********************************************************/
 .do-parallax-page-title-section{
-    padding: 175px 0;
     position: relative;
-    -webkit-background-size: cover;
-            background-size: cover;
 }
-
+.do-about-us-video {
+    position: relative;
+}
 .do-parallax-page-title-section .do-page-title{
     display: block;
     z-index: 10;
-    position: relative;
+    position: absolute;
     text-align: center;
+    margin: 17% 12%;
+    top: 0;
 }
 
 .do-parallax-page-title-section .do-page-title:after{
@@ -791,8 +794,8 @@ SKILLBAR
 
 .do-parallax-page-title-section .do-page-title h1{
     font-family: 'Open Sans', sans-serif;
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 34px;
+    font-weight: 500;
     letter-spacing: 1px;
     color: #ffffff;
     margin-top: 0;
