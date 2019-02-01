@@ -720,7 +720,7 @@ SKILLBAR
     /* height: 480px;
     width: 780px; */
     background-color: rgba(255, 255, 255, 0.99);  
-    margin: 2% 0; 
+    margin: 3% 0; 
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .do-mission-text {
@@ -730,8 +730,35 @@ SKILLBAR
     text-align: justify;
     margin: 25% 10%;
 }
-.do-mission-image {
-    margin: 2% 0;
+.do-mission-vision-wrapper {
+    margin: 3% 0;
+}
+.do-mission {
+    position: relative;
+}
+.do-mission-heading {
+    position: absolute;
+    top: 0;
+    margin: 23% 28%;
+    background-color: rgba(255, 255, 255, 0.97);
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 19px 15px;
+    text-transform: capitalize;
+    color: #000;
+}
+.do-mission-heading::after {
+    content: '';
+    width: 55px;
+    height: 4px;
+    margin: 0 auto;
+    background-color: #009e4b;
+    display: block;
+    margin-top: 10px;
+}
+.do-vision-img {
+    margin-top: 50px; 
 }
 
 /********************************************************
