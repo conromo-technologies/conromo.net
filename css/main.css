@@ -1,148 +1,3 @@
-/************************************************
-Theme Name: DO - Corporate Business Template
-Author: Mamun Chowdhury
-Author URI: http://mamunchowdhury.com
-Version: 2.0
-************************************************ */
-
-/*--------------------------------------------------
-  Table of Contents
------------------------------------------------------
-:: GENERAL
-:: TYPOGRAPHY
-:: MENU
-::
-:: -------------------
-:: HOMEPAGE ONE
-:: -------------------
-:: -- MENU
-:: -- HOME SLIDER
-:: -- SERVICES SECTION
-:: -- CUSTOM SECTION
-:: -- FEATURE SECTION
-:: -- WORK SECTION
-:: -- CUSTOM SECTION
-:: -- COUNTER SECTION
-:: -- BLOG SECTION
-:: -- CUSTOM SECTION
-:: -- TEAM SECTION
-:: -- VIDEO SECTION
-:: -- SOCIAL LINK SECTION
-:: -- PROCESS SECTION
-:: -- BLOG SECTION
-:: -- CONTACT SECTION
-::
-:: -------------------
-:: HOMEPAGE TWO
-:: -------------------
-:: -- SLIDER
-:: -- FEATURES
-:: -- CUSTOM SECTION  WITH IMAGE LEFT
-:: -- COUNTER TO ACTION
-:: -- CALL TO ACTION
-:: -- PORTFOLIO
-:: -- BLOG POST
-:: -- CONTACT SECTION
-:: -- CLIENT SECTION
-::
-:: -------------------
-:: HOMEPAGE THREE
-:: -------------------
-:: -- SLIDER
-:: -- FEATURES
-:: -- CUSTOM SECTION  WITH IMAGE LEFT
-:: -- PORTFOLIO SLIDER
-:: -- FEATURE WITH IMAGE
-:: -- CUSTOM SECTION WITH IMAGE
-:: -- MASONRY BLOG POST
-:: -- COUNTER SECTION
-:: -- CUSTOM SECTION WITH IMAGE OVERLAY
-:: -- TEAM
-:: -- TESTIMONIAL
-::
-:: -------------------
-:: HOMEPAGE FOUR
-:: -------------------
-:: -- SLIDER
-:: -- FEATURES
-:: -- CUSTOM SECTION  WITH IMAGE LEFT
-:: -- COUNTER TO ACTION
-:: -- CALL TO ACTION
-:: -- PORTFOLIO
-:: -- CUSTOM SECTION WITH IMAGE
-:: -- MASONRY BLOG POST
-:: -- CLIENT SECTION
-::
-:: -----------------------------
-:: ABOUT US PAGE
-:: -----------------------------
-:: -- ABOUT US DETAILS
-:: -- CUSTOM SECTION
-:: -- TEAM SECTION
-:: -- VIDEO TESTIMONIAL SECTION
-::
-:: -----------------------------
-:: BLOG SINGLE PAGE
-:: -----------------------------
-:: -- SINGLE PAGE CONTENT
-:: -- BLOG SINGLE IMAGE
-:: -- BLOG SINGLE TEXT
-:: -- BLOG SINGLE POST TITLE
-:: -- BLOG SINGLE POST TEXT
-:: -- BLOG COMMENTS
-:: -- COMMENTS
-:: -- COMMENTS REPLY
-:: -- BLOG COMMENTS FORM
-::
-:: -----------------------------
-:: BLOG PAGE CREATIVE
-:: -----------------------------
-:: -- DATE
-:: -- BLOG TITLE &amp; AUTHOR
-:: -- BLOG POST ICON
-:: -- BLOG CAROUSAL CONTROL
-:: -- LOADING SCREEN
-::
-:: -------------------
-:: MASONRY BLOG PAGE
-:: --------------------
-:: -- BLOG IMAGE
-:: -- POST DATE
-:: -- POST TITLE &amp; EXCERPT
-::
-:: -----------------------------------
-:: PORTFOLIO PAGE (2,3,4, WITH SPACE)
-:: -----------------------------------
-:: -- FILTER BUTTON
-:: -- WORK ITEMS
-:: -- HOVER EFFECT
-::
-:: -----------------------------------
-:: PORTFOLIO SINGLE PAGE ONE
-:: -----------------------------------
-:: -- MAIN IMAGE
-:: -- PORTFOLIO SINGLE DETAILS
-:: -- PORTFOLIO SINGLE SUB IMAGES
-:: -- RELATED WORKS
-:: -- NAVIGATION
-::
-:: -----------------------------------
-:: PORTFOLIO SINGLE PAGE ONE
-:: -----------------------------------
-:: -- IMAGE
-:: -- DETAILS
-::
-:: -----------------------------------
-:: CONTACT US PAGE
-:: -----------------------------------
-:: -- GOOGLE MAP
-:: -- CONTACT FORM
-:: -- CONTACT ADDRESS
-::
-:: FOOTER
-:: SIDEBAR
-*/
-
 /********************************************************
 *                                                       *
                         General
@@ -374,7 +229,10 @@ DO SOLID BUTTON
     border: 1px solid #009e4b;
     outline: 0;
 }
-
+.logo {
+    width: 120px;
+    margin: auto auto;
+}
 /************************
 DO LIST ITEM WITH ICON
 ************************/
@@ -730,7 +588,7 @@ SKILLBAR
 }
 .do-main-circle {
     position: relative;
-    margin: 4% 0;
+    margin: 6% 0;
 }
 .do-circle {
     position: relative;
@@ -743,8 +601,8 @@ SKILLBAR
 }
 .do-circle:nth-child(2) { 
     position: absolute;
-    top: 20%;
-    left: 62%;
+    top: 28%;
+    left: 60%;
     height: 180px;
     width: 180px;
     border-radius: 100%;
@@ -753,7 +611,7 @@ SKILLBAR
 .do-circle:nth-child(3) {
     position: absolute;
     /* bottom: 78%; */
-    left: 40%;
+    left: 37%;
     height: 150px;
     width: 150px;
     border-radius: 100%;
@@ -766,6 +624,15 @@ SKILLBAR
     font-weight: 400;
     color: #fff;
     margin: 42% 32%;
+    text-transform: uppercase; 
+}
+.do-circle-title-we {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #000;
+    margin: 42% 38%;
     text-transform: uppercase; 
 }
 .do-about-us-video{
