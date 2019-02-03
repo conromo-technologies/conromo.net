@@ -3136,7 +3136,9 @@ HOVER
 .do-homepage-2nd .do-feature-section .do-features a{
     color: #000;
 }
-
+.do-feature-text {
+    text-align: justify;
+}
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
             CUSTOM SECTION  WITH IMAGE LEFT
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -3477,6 +3479,10 @@ Team Carousal Control
 *                       ABOUT US PAGE                   *
 *                                                       *
 *********************************************************/
+.do-about-text {
+    text-align: justify;
+}
+
 .do-about-us-section{
     padding: 100px 0;
 }
