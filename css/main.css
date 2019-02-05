@@ -4877,13 +4877,21 @@ footer.do-footer .do-footer-top{
 footer.do-footer .do-footer-top .do-footer-widget h3.do-footer-widget-header{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
+    font-weight: 500;
     color: #ffffff;
-    margin-top: 0;
+    letter-spacing: 1px;
+    margin-top: 78px;
     margin-bottom: 35px;
+    margin-left: 20px;
     text-transform: uppercase;
 }
-
+footer.do-footer .do-footer-top .do-footer-widget ul.do-footer-ul {
+    margin-left: 20px;
+}
 footer.do-footer .do-footer-top .do-footer-widget ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
     color: #717171;
     -webkit-transition: color .3s;
        -moz-transition: color .3s;
@@ -4917,6 +4925,7 @@ footer.do-footer .do-footer-top .do-footer-about-widget .do-company-address ul l
     padding-left: 40px;
     padding-bottom: 13px;
     color: #717171;
+    font-size: 14px;
 }
 
 footer.do-footer .do-footer-top .do-footer-about-widget .do-company-address ul li:last-child{
