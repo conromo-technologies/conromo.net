@@ -4889,7 +4889,7 @@ footer.do-footer .do-footer-top .do-footer-widget ul.do-footer-ul {
     margin-left: 20px;
 }
 footer.do-footer .do-footer-top .do-footer-widget ul li a{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
     color: #717171;
@@ -4902,13 +4902,15 @@ footer.do-footer .do-footer-top .do-footer-widget ul li a{
 footer.do-footer .do-footer-top .do-footer-widget ul li.do-social-link {
     margin-bottom: 10px;
     border: 1px solid #fff;
-    width: 50%;
-    padding: 6px 0;
-    padding-left: 15px;
-
+    width: 65%;
+    padding: 7px 0;
+    padding-left: 25px;
 }
+footer.do-footer .do-footer-top .do-footer-widget ul li i {
+    font-size: 16px;
+} 
 footer.do-footer .do-footer-top .do-footer-widget ul li.do-social-link i span {
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-left: 8px;
@@ -4938,7 +4940,7 @@ footer.do-footer .do-footer-top .do-footer-about-widget .do-company-address ul l
     padding-left: 40px;
     padding-bottom: 13px;
     color: #717171;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 footer.do-footer .do-footer-top .do-footer-about-widget .do-company-address ul li:last-child{
