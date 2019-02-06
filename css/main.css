@@ -3122,8 +3122,28 @@ HOVER
 .do-hero-header-wrapper.do-fullscreen-slider .do-hero-header-btns a:last-child{
     margin-right: 0;
 }
-
-
+.do-main-jump-wrapper {
+    position: relative;
+    padding: 0;
+}
+.do-about-background {
+    padding: 0;
+    margin: 0;
+    height: 275px;
+    width: 100%;
+    background-color: #333;
+}
+.do-main-jump-text {
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 1px solid #FFF;
+    letter-spacing: 2px;
+    top: 0;
+    margin: 6% 40%;
+    padding: 20px 38px;
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                         FEATURES
@@ -3138,6 +3158,7 @@ HOVER
 }
 .do-feature-text {
     text-align: justify;
+    font-size: 14px;
 }
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
             CUSTOM SECTION  WITH IMAGE LEFT
