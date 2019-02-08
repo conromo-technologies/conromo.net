@@ -3131,12 +3131,12 @@ HOVER
     margin: 0;
     height: 275px;
     width: 100%;
-    background-color: #333;
+    background-color: rgb(226, 209, 209);
 }
 .do-main-jump-text {
     position: absolute;
-    font-size: 3rem;
-    font-weight: 500;
+    font-size: 3.5rem;
+    font-weight: 300;
     text-transform: capitalize;
     border: 1px solid #FFF;
     letter-spacing: 2px;
@@ -3144,7 +3144,35 @@ HOVER
     margin: 6% 40%;
     padding: 20px 38px;
 }
-
+.do-service-flag {
+    height: 350px;
+    width: 31%;
+    margin-right: 2.33%;
+    background-color: #0077b5;
+}
+.do-product-number-wrapper {
+    margin: 10% 45%;
+}
+.do-product-number {
+    font-size: 1.5rem;
+    padding: 8px 12PX;
+    color: black;
+    border: 1px solid black;
+}
+.do-product-number::after {
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    left: 45%;
+}
+.do-product-heading {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: center;
+}
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                         FEATURES
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
