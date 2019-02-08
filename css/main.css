@@ -3161,17 +3161,32 @@ HOVER
 }
 .do-product-number::after {
     content: '';
-    width: 40px;
+    width: 30px;
     height: 1px;
     background-color: #000;
     position: absolute;
-    left: 45%;
+    left: 37%;
+    top: 12%;
+}
+.do-product-number::before {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    right: 37%;
+    top: 12%;
 }
 .do-product-heading {
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 300;
     text-align: center;
+}
+.do-product-iteam {
+    font-size: 1.5rem;
+    color: #000;
+    letter-spacing: 1px;
 }
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                         FEATURES
