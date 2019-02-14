@@ -3129,9 +3129,9 @@ HOVER
 .do-about-background {
     padding: 0;
     margin: 0;
-    height: 275px;
+    height: 100vh;
     width: 100%;
-    background-color: rgb(226, 209, 209);
+    /* background-color: rgb(226, 209, 209); */
 }
 .do-main-jump-text {
     position: absolute;
@@ -3199,7 +3199,9 @@ HOVER
 .do-homepage-2nd .do-custom-sec-img-left{
     padding: 60px 0;
 }
-
+.do-main-jump-head {
+    background-image: url(../images/best.jpg);
+}
 .do-homepage-2nd .do-custom-section-with-img .do-custom-sec-content h3{
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
