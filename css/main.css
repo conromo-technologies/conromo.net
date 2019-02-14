@@ -3147,46 +3147,36 @@ HOVER
 .do-service-flag {
     height: 350px;
     width: 31%;
-    margin-right: 2.33%;
+    margin-right: 2%;
     background-color: #0077b5;
 }
 .do-product-number-wrapper {
-    margin: 10% 45%;
+    margin: 10% 20%;
 }
 .do-product-number {
+    /* text-transform: capitalize; */
     font-size: 1.5rem;
-    padding: 8px 12PX;
+    padding: 10px 15PX;
     color: black;
     border: 1px solid black;
-}
-.do-product-number::after {
-    content: '';
-    width: 30px;
-    height: 1px;
-    background-color: #000;
-    position: absolute;
-    left: 37%;
-    top: 12%;
-}
-.do-product-number::before {
-    content: '';
-    width: 30px;
-    height: 1px;
-    background-color: #000;
-    position: absolute;
-    right: 37%;
-    top: 12%;
 }
 .do-product-heading {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 300;
-    text-align: center;
+    text-align: justify;
+    color: #000;
 }
 .do-product-iteam {
     font-size: 1.5rem;
     color: #000;
     letter-spacing: 1px;
+}
+.do-row-margin {
+    margin-top: 25px;
+}
+.do-social-media-align {
+    margin-top: 80px;
 }
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                         FEATURES
