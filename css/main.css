@@ -3141,8 +3141,8 @@ HOVER
     border: 1px solid #FFF;
     letter-spacing: 2px;
     top: 0;
-    margin: 6% 40%;
-    padding: 20px 38px;
+    padding: 34px 55px;
+    margin: auto auto;
 }
 .do-service-flag {
     height: 350px;
@@ -3201,6 +3201,8 @@ HOVER
 }
 .do-main-jump-head {
     background-image: url(../images/best.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
 }
 .do-homepage-2nd .do-custom-section-with-img .do-custom-sec-content h3{
     font-family: 'Open Sans', sans-serif;
