@@ -297,16 +297,16 @@ DO ICON WITH TEXT (STYLE 1)
 }
 
 .do-icon-with-text-style1:nth-child(1) .do-icon-wrapper{
-    background-color: #8a8780;
+    background-color: #005A5B;
 }
 .do-icon-with-text-style1:nth-child(2) .do-icon-wrapper{
-    background-color: #8ec53f;
+    background-color: #007369;
 }
 .do-icon-with-text-style1:nth-child(3) .do-icon-wrapper{
-    background-color: #e84b3a;
+    background-color: #008C72;
 }
 .do-icon-with-text-style1:nth-child(4) .do-icon-wrapper{
-    background-color: #de4e4e;
+    background-color: #02A676;
 }
 
 .do-icon-with-text-style1 .do-icon-wrapper i{
@@ -3151,7 +3151,7 @@ HOVER
     height: 350px;
     width: 31%;
     margin-right: 2%;
-    background-color: #eeeeee;
+    background-color: #02A676;
 }
 .do-product-number-wrapper {
     margin: 10% 20%;
@@ -3160,15 +3160,15 @@ HOVER
     /* text-transform: capitalize; */
     font-size: 1.5rem;
     padding: 10px 15PX;
-    color: black;
-    border: 1px solid black;
+    color: #FFFFE2;
+    border: 1px solid #FFFFE2;
 }
 .do-product-heading {
     text-transform: normal;
     letter-spacing: 1px;
     font-weight: 300;
     text-align: justify;
-    color: #000;
+    color: #005A5B;
 }
 
 .do-row-margin {
@@ -3181,7 +3181,7 @@ HOVER
                         FEATURES
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-homepage-2nd .do-feature-section{
-    background-color: #ffffff;
+    background-color: #FFFFE2;
     padding: 100px 0;
 }
 
