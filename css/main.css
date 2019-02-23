@@ -3148,7 +3148,7 @@ HOVER
     height: 350px;
     width: 31%;
     margin-right: 2%;
-    background-color: #0077b5;
+    background-color: #eeeeee;
 }
 .do-product-number-wrapper {
     margin: 10% 20%;
@@ -3161,17 +3161,13 @@ HOVER
     border: 1px solid black;
 }
 .do-product-heading {
-    text-transform: uppercase;
+    text-transform: normal;
     letter-spacing: 1px;
     font-weight: 300;
     text-align: justify;
     color: #000;
 }
-.do-product-iteam {
-    font-size: 1.5rem;
-    color: #000;
-    letter-spacing: 1px;
-}
+
 .do-row-margin {
     margin-top: 25px;
 }
