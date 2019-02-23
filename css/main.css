@@ -1219,8 +1219,8 @@ img{
   margin-top: -8px;
 }
 .do-why {
-	margin-top: 59px;
-	margin-left: -8px;
+    margin-top: 75px;
+    max-width: 75%;
 }
 
 a:hover,
@@ -1252,7 +1252,7 @@ p,li,a,span,input{
     font-size: 13px;
     font-weight: 400;
     line-height: 22px;
-    color: #888888;
+    color: #003840;
 }
 
 /************************* End **************************/
@@ -1271,7 +1271,7 @@ p,li,a,span,input{
     min-height: 60px;
     border: 0px;
     padding: 5px 0;
-    background-color: rgba(0, 0, 0, 0.97);
+    background-color: #d8ffe2;
     position: relative;
     z-index: 99;
     width: 100%;
@@ -1469,7 +1469,7 @@ DROPDOWN MENU
 
 /* Minified Menu */
 .do-main-menu.minified{
-    background-color: rgba(0, 0, 0, 0.97);
+    background-color: #d8ffe2;
     padding: 0;
     position: fixed;
 }
@@ -2242,7 +2242,7 @@ DROPDOWN MENU
                     SERVICES SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-sevice-section{
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     overflow: hidden;
 }
 
@@ -2286,7 +2286,7 @@ DROPDOWN MENU
 }
 
 .do-sevice-section .do-service-container .do-back-part{
-    background-color: #474747;
+    background-color: #003840;
     z-index: 1;
     opacity: 0;
     -webkit-transform: translateY(110px) rotateX(-90deg);
@@ -2370,24 +2370,24 @@ DROPDOWN MENU
 
 .do-sevice-section .do-service-container .do-back-part .do-back-content p{
     font-size: 13px;
-    color: #b1b1b1;
+    color: #ffffff;
     margin-bottom: 0;
 }
 
 .do-sevice-section .do-service-container:nth-child(1) .do-front-part{
-    background-color: #8a8780;
+    background-color: #02A676;
 }
 
 .do-sevice-section .do-service-container:nth-child(2) .do-front-part{
-    background-color: #8ec53f;
+    background-color: #008C72;
 }
 
 .do-sevice-section .do-service-container:nth-child(3) .do-front-part{
-    background-color: #e84b3a;
+    background-color: #008C72;
 }
 
 .do-sevice-section .do-service-container:nth-child(4) .do-front-part{
-    background-color: #08433b;
+    background-color: #005A5B;
 }
 
 
@@ -2527,7 +2527,7 @@ DROPDOWN MENU
                     FEATURE SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-feature-section{
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     padding: 65px 0;
 }
 
@@ -2542,13 +2542,16 @@ DROPDOWN MENU
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     CUSTOM SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.do-homepage-one {
+    background-color: #FFFFE2;
+}
 .do-custom-section-with-img{
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     padding: 100px 0;
 }
 
 .do-homepage-one .do-custom-section-with-img{
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     padding: 100px 0;
 }
 
@@ -4916,7 +4919,7 @@ CONTACT ADDRESS
 *                                                       *
 *********************************************************/
 footer.do-footer{
-    background-color: #343434;
+    background-color: #c8efd2;
 }
 
 /*--------
@@ -4932,7 +4935,7 @@ footer.do-footer .do-footer-top .do-footer-widget h3.do-footer-widget-header{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 500;
-    color: #ffffff;
+    color: #02A676;
     letter-spacing: 1px;
     margin-top: 78px;
     margin-bottom: 35px;
@@ -4946,7 +4949,7 @@ footer.do-footer .do-footer-top .do-footer-widget ul li a{
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #717171;
+    color: #003840;
     -webkit-transition: color .3s;
        -moz-transition: color .3s;
         -ms-transition: color .3s;
@@ -4955,7 +4958,7 @@ footer.do-footer .do-footer-top .do-footer-widget ul li a{
 }
 footer.do-footer .do-footer-top .do-footer-widget ul li.do-social-link {
     margin-bottom: 10px;
-    border: 1px solid #fff;
+    border: 1px solid #02A676;
     width: 65%;
     padding: 7px 0;
     padding-left: 25px;
@@ -4993,7 +4996,7 @@ footer.do-footer .do-footer-top .do-footer-about-widget .do-company-address ul l
     position: relative;
     padding-left: 40px;
     padding-bottom: 13px;
-    color: #717171;
+    color: #003840;
     font-size: 16px;
 }
 
