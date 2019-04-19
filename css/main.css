@@ -3158,36 +3158,41 @@ HOVER
     padding: 34px 55px;
     margin: auto auto;
 }
-.do-service-flag {
-    height: 350px;
-    width: 31%;
-    margin-right: 2%;
-    background-color: #02A676;
+/* Service page started */
+.do-product-container {
+    position: relative;
+    background: #65ca9e;
+    height: 250px;
 }
-.do-product-number-wrapper {
-    margin: 10% 20%;
-}
-.do-product-number {
-    /* text-transform: capitalize; */
-    font-size: 1.5rem;
-    padding: 10px 15PX;
-    color: #FFFFE2;
-    border: 1px solid #FFFFE2;
-}
-.do-product-heading {
-    text-transform: normal;
+.do-product-container h2 {
+    padding: 21px 0; 
+    padding-left: 21px;
+    font-size: 21px;
+    font-weight: 400;
+    color: #fff;
     letter-spacing: 1px;
-    font-weight: 300;
-    text-align: justify;
-    color: #005A5B;
+}
+.do-product-container p {
+    width: 260px;
+    padding-left: 21px;
+    /* border: 1px solid black; */
+}
+.do-product-container .product-icon-partition {
+    position: absolute;
+    background: #02A676;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 250px;
+}
+.do-product-container .product-icon-partition i {
+    font-size: 34px;
+    padding-top: 89px;
+    padding-left: 21px ;
+    color: #fff;
 }
 
-.do-row-margin {
-    margin-top: 25px;
-}
-.do-social-media-align {
-    margin-top: 80px;
-}
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                         FEATURES
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
