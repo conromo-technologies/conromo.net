@@ -3175,7 +3175,6 @@ HOVER
 .do-product-container p {
     width: 260px;
     padding-left: 21px;
-    /* border: 1px solid black; */
 }
 .do-product-container .product-icon-partition {
     position: absolute;
@@ -3188,8 +3187,9 @@ HOVER
 .do-product-container .product-icon-partition i {
     font-size: 34px;
     padding-top: 89px;
-    padding-left: 21px ;
+    padding-left: 34px ;
     color: #fff;
+    line-height: 7;
 }
 
 
