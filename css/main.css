@@ -4980,9 +4980,6 @@ footer.do-footer .do-footer-top .do-footer-widget ul li.do-social-link i span {
     text-transform: capitalize;
     margin-left: 8px;
 }
-footer.do-footer .do-footer-top .do-footer-widget ul li:hover a{
-    color: #FFF;
-}
 
 /*
     About Us Widget
@@ -5032,7 +5029,8 @@ footer.do-footer .do-footer-top .do-about-link-widget ul li{
 }
 footer.do-footer .do-footer-top .do-footer-link-widget ul li:hover,
 footer.do-footer .do-footer-top .do-about-link-widget ul li:hover {
-    background-color: #02A676;
+    /* background-color: #02A676; */
+    border: 1px solid #02A676;
     transition: all ease-in-out 0.5s;
 }
 
