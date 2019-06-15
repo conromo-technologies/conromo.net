@@ -575,7 +575,10 @@ SKILLBAR
         About us page start
 *** *** *** *** *** *** *** *** *** */
 .do-who-main-text {
+    padding: 0;
     margin: 4% 0;
+    background: #8ec53f;
+
 }
 .do-who-text {
     font-family: 'Roboto', sans-serif;
@@ -651,7 +654,7 @@ SKILLBAR
     height: 100%;
 }
 .do-main-mission {
-    background-color: rgba(255, 255, 255, 0.99);  
+    background-color: #8ec53f;  
     margin: 4% 0; 
     box-shadow: 0 2px 4px rgba(0,0,0,0.15), 0 2px 3px rgba(0,0,0,0.25);
 }
@@ -673,7 +676,7 @@ SKILLBAR
     position: absolute;
     top: 0;
     margin: 23% 28%;
-    background-color: rgba(255, 255, 255, 0.97);
+    background-color: #fffaa5;
     font-size: 2rem;
     font-weight: 500;
     letter-spacing: 1px;
@@ -788,8 +791,7 @@ SKILLBAR
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-normal-page-title-section{
     padding: 50px 0;
-    background-color: #f9f9f9;
-    border-bottom: 1px solid #f1f1f1;
+    background-color: #FFFFE2;
 }
 
 .do-normal-page-title-section .do-page-title-wrapper{
@@ -1230,7 +1232,6 @@ img{
   margin-top: -8px;
 }
 .do-why {
-    margin-top: 75px;
     max-width: 75%;
 }
 
@@ -1282,7 +1283,7 @@ p,li,a,span,input{
     min-height: 60px;
     border: 0px;
     padding: 5px 0;
-    background-color: #d8ffe2;
+    background-color: #f0f0d2;
     position: relative;
     z-index: 99;
     width: 100%;
@@ -1480,7 +1481,7 @@ DROPDOWN MENU
 
 /* Minified Menu */
 .do-main-menu.minified{
-    background-color: #d8ffe2;
+    background-color: #f0f0d2;
     padding: 0;
     position: fixed;
 }
@@ -2253,10 +2254,12 @@ DROPDOWN MENU
                     SERVICES SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-sevice-section{
-    /* background-color: #f9f9f9; */
+    background-color: #dfdfc1;
     overflow: hidden;
 }
-
+.do-service-main-wrapper {
+    margin-bottom: 34px;
+}
 .do-sevice-section .do-service-container{
     float: left;
     position: relative;
@@ -2651,7 +2654,7 @@ DROPDOWN MENU
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-custom-section-three{
     padding: 100px 0;
-    background-color: #f9f9f9;
+    background-color: #FFFFE2;
 }
 
 .do-custom-section-three h3{
@@ -3143,25 +3146,26 @@ HOVER
 .do-about-background {
     padding: 0;
     margin: 0;
-    height: 100vh;
+    height: 65vh;
     width: 100%;
-    /* background-color: rgb(226, 209, 209); */
 }
 .do-main-jump-text {
     position: absolute;
-    font-size: 3.5rem;
+    font-size: 55px;
     font-weight: 300;
     text-transform: capitalize;
-    border: 1px solid #FFF;
+    /* border: 1px solid #FFF; */
     letter-spacing: 2px;
-    top: 0;
-    padding: 34px 55px;
-    margin: auto auto;
+    top: 40%;
+    right:37%;
+    padding: 6px 25px;
+    color: white;
+    background: green;
 }
 /* Service page started */
 .do-product-container {
     position: relative;
-    background: #65ca9e;
+    background: #e2e1b9;
     height: 250px;
 }
 .do-product-container h2 {
@@ -3169,16 +3173,18 @@ HOVER
     padding-left: 21px;
     font-size: 21px;
     font-weight: 400;
-    color: #fff;
+    color: #575a4b;
     letter-spacing: 1px;
 }
 .do-product-container p {
+    text-align: justify;
     width: 260px;
     padding-left: 21px;
+    padding-right: 21px;
 }
 .do-product-container .product-icon-partition {
     position: absolute;
-    background: #02A676;
+    background: #575a4b;
     top: 0;
     right: 0;
     width: 100px;
@@ -3214,10 +3220,13 @@ HOVER
 .do-homepage-2nd .do-custom-sec-img-left{
     padding: 60px 0;
 }
+
 .do-main-jump-head {
+    position: relative;
     background-image: url(../images/best.jpg);
-    background-repeat: none;
-    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 .do-homepage-2nd .do-custom-section-with-img .do-custom-sec-content h3{
     font-family: 'Open Sans', sans-serif;
@@ -4837,7 +4846,8 @@ CONTACT FORM
     margin-right: 15px;
     margin-bottom: 15px;
     border: none;
-    border-bottom: 1px solid #888888;
+    border-bottom: 1px solid #02A676;
+    background-color: #FFFFE2;
     outline: 0;
 }
 
@@ -4850,8 +4860,8 @@ CONTACT FORM
     padding: 15px;
     float: left;
     margin-bottom: 40px;
-    background-color: #f9f9f9;
-    border: 1px solid #888888;
+    background-color: #FFFFE2;
+    border: 1px solid #02A676;
     outline: 0;
 }
 
@@ -4935,7 +4945,7 @@ CONTACT ADDRESS
 *                                                       *
 *********************************************************/
 footer.do-footer{
-    background-color: #c8efd2;
+    background-color: #dfdfc1;
 }
 
 /*--------

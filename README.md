@@ -1,2 +1,2 @@
 # CONROMO TECHNOLOGIES
-All the element of this product only useable for the 
+## This is a Software Company at Bangladesh. All Right reserved for this Company.
