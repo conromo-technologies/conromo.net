@@ -496,6 +496,13 @@ DO ICON WITH TEXT (RIGHT ICON)
 .do-icon-with-text-style-2.do-icon-right .do-text-wrapper p{
     text-align: right;
 }
+/* -----------------------------------------------
+            Carasuel Customization 
+-------------------------------------------------- */
+
+.carousel-custom-height {
+    height: 70vh;
+}
 
 
 /************
@@ -653,18 +660,70 @@ SKILLBAR
     width: 100%;
     height: 100%;
 }
-.do-main-mission {
+
+/* Misssion Style section started from here */
+
+
+
+
+/* .do-main-mission {
     background-color: #8ec53f;  
     margin: 4% 0; 
     box-shadow: 0 2px 4px rgba(0,0,0,0.15), 0 2px 3px rgba(0,0,0,0.25);
-}
+} */
+.wrapper {
+    position: relative;
+    margin: 20px auto;
+    height: auto;
+    padding: 10px 55px;
+    text-align: justify;
+    transition: all ease-in-out 0.5s;
+  }
+  .wrapper:hover {
+    background-color: red;
+    transition: all ease-in-out 0.5s;
+  }
+  .icon-wrapper-border {
+    position: absolute;
+    height: 73px;
+    width: 73px;
+    left: -45px;
+    top: 25%;
+    border: 1px solid red;
+    /* transform: rotate(45deg); */
+    transition: all ease-in-out 0.7s;
+  }
+
+  .icon-wrapper {
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    right: 0;
+    bottom: 0;
+    background-color: red;
+    transition: all ease-in-out 0.50s;
+  }
+  .wrapper:hover .icon-wrapper {
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    top: 0;
+    bottom: 0;
+    background-color: red;
+    transition: all ease-in-out 0.50s;
+  }
+  
+
+
+
+
 .do-mission-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 1.3em;
     color: #000;
     text-align: justify;
-    margin: 25% 10%;
+    /* margin: 25% 10%; */
 }
 .do-mission-vision-wrapper {
     margin: 4% 0;
@@ -3149,18 +3208,15 @@ HOVER
     height: 65vh;
     width: 100%;
 }
-.do-main-jump-text {
+.do-main-jump-wrapper #testTypeWritter {
     position: absolute;
-    font-size: 55px;
-    font-weight: 300;
-    text-transform: capitalize;
-    /* border: 1px solid #FFF; */
-    letter-spacing: 2px;
-    top: 40%;
-    right:37%;
-    padding: 6px 25px;
-    color: white;
-    background: green;
+    top: 0;
+    margin: 15% 20%;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #fff;
 }
 /* Service page started */
 .do-product-container {

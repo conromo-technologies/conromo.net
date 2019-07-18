@@ -646,3 +646,22 @@ $("#contact-form input, #contact-form textarea").keyup(function() {
 });
 
 });
+
+// This code for the type writter on the about us page
+
+new TypeIt('#testTypeWritter', {
+	speed: 100,
+	startDelay: 900,
+	// loop: true,
+	// loopDelay: 20000
+})
+.type('To give you a very small taste of what we can do.')
+.pause(300)
+.delete(3)
+.options({
+	speed: 144,
+	deleteSpeed: 100
+})
+.pause(750)
+.type('<b>provide.</b>')
+.go();
