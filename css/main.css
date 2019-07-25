@@ -1,3 +1,25 @@
+/* -------------------------------------------------------
+   -                                                     -
+   -    Fonts Installed here locally                     -
+   -                                                     -
+   ------------------------------------------------------- */
+   @font-face {
+       font-family: 'Raleway-Thin';
+       font-style: Thin;
+       font-weight: 100;
+       src: local('Raleway-Thin'),
+            url('../fonts/Raleway-Thin.ttf') format('truetype');
+   }
+   @font-face {
+       font-family: 'Raleway-Regular';
+       font-style: Regular;
+       font-weight: 300;
+       src: local('Raleway-Regular'),
+            url('../fonts/Raleway-Regular.ttf') format('truetype');
+
+   }
+
+
 /********************************************************
 *                                                       *
                         General
@@ -575,89 +597,6 @@ SKILLBAR
 
 .do-skillbar:nth-child(4) .do-skillbar-bar{
     background-color: #474747;
-}
-
-
-/* *** *** *** *** *** *** *** ***
-        About us page start
-*** *** *** *** *** *** *** *** *** */
-.do-who-main-text {
-    padding: 0;
-    margin: 4% 0;
-    background: #8ec53f;
-
-}
-.do-who-text {
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: #000;
-    text-align: justify;
-    padding: 9% 12%;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.15), 0 2px 3px rgba(0,0,0,0.25);
-}
-.do-main-circle {
-    position: relative;
-    margin: 13% auto;
-}
-.do-circle {
-    position: relative;
-    left: 0;
-    height: 144px;
-    width: 144px;
-    border-radius: 100%;
-    background-color: #009e4b;
-}
-.do-circle:nth-child(2) { 
-    position: absolute;
-    top: 0;
-    left: 35%;
-    height: 144px;
-    width: 144px;
-    border-radius: 100%;
-    background-color: #009e4b;
-}
-.do-circle:nth-child(3) {
-    position: absolute;
-    top: 0;
-    left: 67%;
-    height: 144px;
-    width: 144px;
-    border-radius: 100%;
-    background-color: #009e4b;
-}
-.do-circle-title-who {
-    margin-top: 40%;
-    margin-left: 32%;
-    text-align: center;
-    position: absolute;
-    font-size: 22px;
-    font-weight: 400;
-    color: #fff;
-    text-transform: uppercase; 
-}
-.do-circle-title-we {
-    margin-top: 40%;
-    margin-left: 38%;
-    text-align: center;
-    position: absolute;
-    font-size: 22px;
-    font-weight: 400;
-    color: #fff;
-    text-transform: uppercase; 
-}
-.do-circle-title {
-    margin-top: 40%;
-    margin-left: 34%;
-    text-align: center;
-    position: absolute;
-    font-size: 24px;
-    font-weight: 400;
-    color: #fff;
-    text-transform: uppercase; 
-}
-.do-about-us-video{
-    width: 100%;
-    height: 100%;
 }
 
 /* Misssion Style section started from here */
@@ -3113,25 +3052,7 @@ HOVER
 .do-hero-header-wrapper.do-fullscreen-slider .do-hero-header-btns a:last-child{
     margin-right: 0;
 }
-.do-main-jump-wrapper {
-    position: relative;
-    padding: 0;
-}
-.do-about-background {
-    padding: 0;
-    margin: 0;
-    height: 65vh;
-    width: 100%;
-}
-.do-main-jump-wrapper #testTypeWritter {
-    position: absolute;
-    top: 0;
-    margin: 15% 15%;
-    font-size: 34px;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1px;
-    color: #fff;
-}
+
 /* Service page started */
 .do-product-container {
     position: relative;
@@ -3189,14 +3110,6 @@ HOVER
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-homepage-2nd .do-custom-sec-img-left{
     padding: 60px 0;
-}
-
-.do-main-jump-head {
-    position: relative;
-    background-image: url(../images/best.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
 }
 .do-homepage-2nd .do-custom-section-with-img .do-custom-sec-content h3{
     font-family: 'Open Sans', sans-serif;
@@ -3531,6 +3444,53 @@ Team Carousal Control
 *                       ABOUT US PAGE                   *
 *                                                       *
 *********************************************************/
+.do-about-header {
+    height: 90vh;
+    width: 100%;
+    background: #02A676;
+}
+.do-about-header .do-about-sub-header {
+    position: relative;
+    background: #007369;
+    height: 85vh;
+    width: 65%;
+    margin-top: 15px;
+}
+.do-about-header .do-about-sub-header .do-about-sub-header-title {
+    position: absolute;
+    font-family: 'Raleway-Regular';
+    font-size: 27px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0 0 0 21px;
+    top: 50%;
+}
+.do-about-header .do-about-sub-header .do-about-sub-header-title::before {
+    content: '';
+    height: 3px;
+    width: 40px;
+    background: #fff;
+    margin-top: 40px;
+    position: absolute;
+}
+.do-about-header .do-about-sub-header p {
+    position: absolute;
+    font-family: 'Raleway-Regular';
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 0 0 0px 21px;
+    top: 65%;
+}
+.do-about-header .do-about-sub-header .do-animated-color {
+    /* color: #f35626; */
+    background-image: linear-gradient(92deg, #f35626 0%,#feab3a 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue 10s infinite linear;
+}
 .do-about-text {
     text-align: justify;
 }
@@ -3540,9 +3500,7 @@ Team Carousal Control
 }
 
 h2.do-section-subheading{
-    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    font-weight: 700;
     color: #000000;
     margin-top: 0;
     margin-bottom: 35px;
@@ -3563,7 +3521,39 @@ h2.do-section-subheading{
 .do-about-us-section .do-about-us-details .do-about-text-row p:last-child{
     margin-bottom: 0;
 }
+/* -----------------------------------------------------
+   -                                                   -
+   -        About Who We Are Section Started           - 
+   -                                                   -
+   ----------------------------------------------------- */
+.do-who-we-are-wrapper .do-who-we-are-main-top {
+    height: auto;
+    width: 100%;
+    background: #02A676;
+    margin-top: 20px;
+}
+.do-who-we-are-wrapper .do-who-we-are-main-top .do-who-we-are-main-top-wrapper .do-who-we-are-top-icon {
+    margin-left: 13px;
+    font-size: 30px;
+    line-height: 55px;
+}
+.do-who-we-are-wrapper .do-who-we-are-main-top .do-who-we-are-main-top-wrapper {
+    border-bottom: 1px solid yellow;
+}
+.do-who-we-are-wrapper .do-who-we-are-main-top .do-who-we-are-main-top-wrapper .do-who-we-are-title {
+    font-family: 'Raleway-Regular';
+    font-size: 30px;
+    line-height: 55px;
+}
+.do-who-we-are-wrapper .do-who-we-are-main-top .do-who-we-are-description {
+    font-family: 'Raleway-Thin';
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 21px 21px 55px 21px;
+    color: #fff;
 
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     CUSTOM SECTION
