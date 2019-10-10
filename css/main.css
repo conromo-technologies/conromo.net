@@ -273,13 +273,13 @@ ul.do-icon-list li:last-child{
 }
 
 ul.do-icon-list li i{
-    color: #8ec53f;
+    color: #009e4b;
     position: absolute;
     top: 5px;
     left: 0;
     width: 14px;
     line-height: 12px;
-    border: 1px solid #8ec53f;
+    border: 1px solid #009e4b;
     text-align: center;
     border-radius: 50%;
     font-size: 9px;
@@ -600,16 +600,54 @@ SKILLBAR
 }
 
 /* Misssion Style section started from here */
-
-.do-main-mission {
-    font-family: 'Open Sans', sans-serif;
-    background: #fff;
+.do-mission-wrapper {
+    border-top: 5px solid #000;
+    background: #005A5B;
+    padding: 8px 21px;
+    height: 265px;
 }
-.do-main-mission p {
-    font-size: 17px;
+.do-mission-wrapper h4 {
+    font-family: 'Raleway-Regular';
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 100;
+    color: #fff;
+}
+.do-mission-wrapper p {
+    font-family: 'Raleway-Regular';
+    font-size: 16px;
     text-align: justify;
-    padding: 34px 21px;
+    letter-spacing: 2px;
+    color: #000;
 }
+/* Vision Style Section Started from here */
+.do-vision-wrapper {
+    border-bottom: 5px solid #000;
+    background: #c0c0c0;
+    padding: 13px 21px; 
+    height: 265px;
+}
+/* .do-vision-wrapper p {
+    font-family: 'Raleway-Regular';
+    font-size: 16px;
+    text-align: justify;
+    letter-spacing: 2px;
+    color: #000;
+} */
+.do-vision-describtion {
+    font-family: 'Raleway-Regular';
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #d9534f;
+}
+
+
+
+
 /********************************************************
                     PAGE TITLE (BG IMAGE)
 ********************************************************/
@@ -3059,7 +3097,7 @@ HOVER
     height: 250px;
 }
 .do-product-container h2 {
-    padding: 21px 0; 
+    padding: 8px 0; 
     padding-left: 21px;
     font-size: 21px;
     font-weight: 400;
@@ -3482,13 +3520,13 @@ Team Carousal Control
     padding: 0 0 0px 21px;
     top: 65%;
 }
-.do-about-header .do-about-sub-header .do-animated-color {
-    /* color: #f35626; */
-    background-image: linear-gradient(92deg, #f35626 0%,#feab3a 100%);
+.do-about-header .do-about-sub-header .do-about-sub-header-title {
+    letter-spacing: 2px;
+    font-weight: 500;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: hue 10s infinite linear;
+    -webkit-animation: hue 10s infinite linear;
 }
 .do-about-text {
     text-align: justify;
@@ -3529,7 +3567,7 @@ h2.do-section-subheading{
     height: auto;
     width: 100%;
     background: #02A676;
-    margin-top: -55px;
+    /* margin-top: -55px; */
 }
 .do-who-we-are-wrapper .do-who-we-are-main-top .do-who-we-are-main-top-wrapper .do-who-we-are-top-icon {
     margin-left: 13px;
