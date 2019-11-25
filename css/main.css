@@ -600,26 +600,28 @@ SKILLBAR
 }
 
 /* Misssion Style section started from here */
-.do-mission-wrapper {
-    border-top: 5px solid #000;
-    background: #005A5B;
-    padding: 8px 21px;
-    height: 265px;
+.mission-wrapper {
+    position: relative;
+    height: 377px;
+    width: 244px;
+    border: 1px dashed #005A5B;
 }
-.do-mission-wrapper h4 {
-    font-family: 'Raleway-Regular';
+.main-mission {
+    position: absolute;
+    height: 340px;
+    width: 244px;
+    top: 20px;
+    left: 34px;
+    background-color: #ffeeff;
+}
+.main-mission p {
     font-size: 21px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 100;
-    color: #fff;
+    padding: 40% 30%;
 }
-.do-mission-wrapper p {
-    font-family: 'Raleway-Regular';
-    font-size: 16px;
-    text-align: justify;
-    letter-spacing: 2px;
-    color: #000;
+.description-mission p{
+    padding-top: 15%;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 /* Vision Style Section Started from here */
 .do-vision-wrapper {
@@ -3482,9 +3484,12 @@ Team Carousal Control
 *                                                       *
 *********************************************************/
 .do-about-header {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
-    background: #02A676;
+    background-image: url("../images/client.jpg");
+    background-position: center center;
+    border-radius: 0 0 144px 0;
+    background-size: 100% 100%;
 }
 .do-about-header .do-about-sub-header {
     position: relative;
@@ -3563,44 +3568,26 @@ h2.do-section-subheading{
    -        About Who We Are Section Started           - 
    -                                                   -
    ----------------------------------------------------- */
-.do-who-we-are-wrapper .do-who-we-are-main-top {
-    height: auto;
-    width: 100%;
-    background: #02A676;
-    /* margin-top: -55px; */
-}
-.do-who-we-are-wrapper .do-who-we-are-main-top .do-who-we-are-main-top-wrapper .do-who-we-are-top-icon {
-    margin-left: 13px;
-    padding-top: 5px;
-    font-size: 30px;
-    line-height: 55px;
-    color: #fff;
-}
-.do-who-we-are-wrapper .do-who-we-are-main-top .do-who-we-are-main-top-wrapper {
-    border-bottom: 1px solid #fff;
-}
-.do-who-we-are-wrapper .do-who-we-are-main-top .do-who-we-are-main-top-wrapper .do-who-we-are-title {
+.do-about-us-wrapper {
     font-family: 'Raleway-Regular';
-    font-size: 27px;
-    line-height: 55px;
+    text-align: center;
+    padding: 34px 21px;
+}
+.do-about-us-wrapper h5 {
     text-transform: uppercase;
-    color: #fff;
-    border-right: 3px solid #000;
-    padding-right: 21px;
-    letter-spacing: 2px;
-    margin-left: 75%;
-}
-.do-who-we-are-wrapper .do-who-we-are-main-top .do-who-we-are-description {
     font-family: 'Raleway-Regular';
-    font-size: 17px;
-    text-align: justify;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    padding: 21px 21px 55px 21px;
-    color: #fff;
-
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    margin-bottom: 21px;
 }
-
+.do-about-us-wrapper p {
+    font-family: 'Raleway-Regular';
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 1px;
+    margin-bottom: 21px;
+}
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     CUSTOM SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
