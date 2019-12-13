@@ -90,7 +90,7 @@ SECTION HEADING (LIGHT)
     content: '';
     width: 45px;
     height: 4px;
-    background-color: #ffffff;
+    background-color: #009e4b;
     position: absolute;
     bottom: -21px;
     left: 49%;
@@ -608,6 +608,11 @@ SKILLBAR
 }
 .main-mission {
     position: absolute;
+    background-image: url("../images/success.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: fill;
     height: 340px;
     width: 244px;
     top: 20px;
@@ -2630,7 +2635,7 @@ DROPDOWN MENU
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-testimonial-section{
     text-align: center;
-    padding: 100px 0;
+    padding: 200px 0;
     background: url(../images/client.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -3486,14 +3491,15 @@ Team Carousal Control
 .do-about-header {
     height: 100vh;
     width: 100%;
-    background-image: url("../images/client.jpg");
-    background-position: center center;
-    border-radius: 0 0 144px 0;
+    background-image: url("../images/aboutus.jpg");
+    background-position: top center;
     background-size: 100% 100%;
+    object-fit: fill;
+    clip-path: polygon(0 0, 100% 0, 100% 81%, 0% 100%);
 }
 .do-about-header .do-about-sub-header {
     position: relative;
-    background: #007369;
+    /* background: #007369; */
     height: 85vh;
     width: 65%;
     margin-top: 15px;
@@ -3506,7 +3512,8 @@ Team Carousal Control
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 0 0 0 21px;
-    top: 50%;
+    top: 43%;
+    right: 0;
 }
 .do-about-header .do-about-sub-header .do-about-sub-header-title::before {
     content: '';
@@ -3519,11 +3526,12 @@ Team Carousal Control
 .do-about-header .do-about-sub-header p {
     position: absolute;
     font-family: 'Raleway-Regular';
-    font-size: 27px;
+    font-size: 17px;
     letter-spacing: 1px;
     color: #fff;
     padding: 0 0 0px 21px;
-    top: 65%;
+    top: 50%;
+    right: 14px;
 }
 .do-about-header .do-about-sub-header .do-about-sub-header-title {
     letter-spacing: 2px;
@@ -4940,6 +4948,23 @@ CONTACT ADDRESS
 footer.do-footer{
     background-color: #dfdfc1;
 }
+.do-footer-ul .do-footer-social-icon i {
+    font-size: 80px;
+    margin-right: 9px;
+}
+
+.do-footer-ul .do-footer-social-icon:nth-child(1) {
+    color: #3b5998;
+}
+.do-footer-ul .do-footer-social-icon:nth-child(2) {
+    color: #0e76a8;
+}
+.do-footer-ul .do-footer-social-icon:nth-child(3) {
+    color: #211F1F;
+}
+.do-footer-ul .do-footer-social-icon:nth-child(4) {
+    color: #00acee;
+}
 
 /*--------
 Footer Top
@@ -4974,11 +4999,7 @@ footer.do-footer .do-footer-top .do-footer-widget ul li a{
          -o-transition: color .3s;
             transition: color .3s;
 }
-footer.do-footer .do-footer-top .do-footer-widget ul li.do-social-link {
-    margin-bottom: 10px;
-    border: 1px solid #02A676;
-    padding: 7px 7px 7px 34px;
-}
+
 footer.do-footer .do-footer-top .do-footer-widget ul li i {
     font-size: 16px;
 } 
@@ -5033,13 +5054,12 @@ footer.do-footer .do-footer-top .do-footer-link-widget ul li,
 footer.do-footer .do-footer-top .do-about-link-widget ul li{
     margin-bottom: 10px;
     transition: all ease-in-out 0.3s;
-    padding: 7px 7px 7px 34px;
+    padding: 2px 34px;
 }
-footer.do-footer .do-footer-top .do-footer-link-widget ul li:hover,
-footer.do-footer .do-footer-top .do-about-link-widget ul li:hover {
-    /* background-color: #02A676; */
-    border: 1px solid #02A676;
-    transition: all ease-in-out 0.5s;
+footer.do-footer .do-footer-top .do-footer-link-widget ul li a:hover,
+footer.do-footer .do-footer-top .do-about-link-widget ul li a:hover {
+    color: #02A676;
+
 }
 
 footer.do-footer .do-footer-top .do-footer-link-widget ul li:last-child,
@@ -5079,12 +5099,16 @@ footer.do-footer .do-footer-bottom{
 footer.do-footer .do-footer-bottom a.do-footer-author-name{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    color: #444444;
+    color: #FFFFE2;
     letter-spacing: 2px;
     text-transform: uppercase;
     display: inline-block;
     *display: inline;
     *zoom: 1;
+}
+
+footer.do-footer .do-footer-bottom a.do-footer-author-name:hover {
+    color: #1e9346;
 }
 
 /************************* End **************************/
